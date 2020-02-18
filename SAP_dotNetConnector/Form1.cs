@@ -95,7 +95,7 @@ namespace SAP_dotNetConnector
             IRfcFunction function = destination.Repository.CreateFunction("ZBAPI_PTT_E20_E85_EXPORT");
             //IRfcFunction function = destination.Repository.CreateFunction("ZBAPI_MOE_CUSTOMER");
 
-            //Import Parameters - Value
+            //Import Parameters - Value 
             function.SetValue("P_FLAG", "X");
             function.SetValue("P_CM_Y_ST", "201901");
             function.SetValue("P_CM_Y_EN", "201912");
